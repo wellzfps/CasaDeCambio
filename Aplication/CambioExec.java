@@ -28,7 +28,7 @@ public class CambioExec {
 		
 		// Criando uma condição logica IF, para caso a variavel que receber a entrada do usuario seja diferente de 4, o if seja executado.
 		if(qualMoeda != 4) {
-			System.out.println("Digite a quantidade que deseja fazer a conversão: ");
+			System.out.println("Digite a quantidade que deseja comprar!!: ");
 			casaDeCambio.quantidade = sc.nextDouble();
 			casaDeCambio.buyCoin(qualMoeda);
 		}
